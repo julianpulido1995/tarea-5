@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,graphicx}
+\usepackage[margin=2cm]{geometry}
+\author{Julian Pulido}
+\date{25 de Mayo de 2017}
+\title{Tarea 5 de metodos computacionales}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+En el presente documento se presentan los resultados de los dos puntos de la tarea 5 de metodos computacionales. El documento se compone de dos secciones para ambos puntos, cada una con sus respectivas graficas.La seccion 1 corresponde al punto 1, conteniendo los histrogramas alusivos al centro del circulo. Por su parte la seccion 2 contiene las graficas de los parametros del ajuste realizdo por el metodo de montecarlo.
+
+\end{abstract} 
+
+\section{Punto 1}
+Las primeras graficas entonces son los histogramas de las coordenadas del centro para los datos de Canalionico.txt y Canalionico1.txt y la sus respectivas graficas con el radio maximo encontrado:
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{histx.png}
+\caption{Histograma de la coordenaa x del centro del circulo, canalionico.txt}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{histy.png}
+\caption{Histograma de la coordenaa y del centro del circulo, canalionico.txt}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{canal.png}
+\caption{Circulo de radio maximo para el canal ionico.txt}
+\end{figure}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{histx1.png}
+\caption{Histograma de la coordenaa x del centro del circulo, canalionico1.txt}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{histy1.png}
+\caption{Histograma de la coordenaa y del centro del circulo, canalionico1.txt}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{canal1.png}
+\caption{Circulo de radio maximo para el canal ionico1.txt}
+\end{figure}
+
+\section{Punto 2}
+
+Se muestran los histogramas de los parametros ademas de su comportamiento con la funcion de maxima verosimilitud, finalmente mostrando el ajuste realizado:
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{histr.png}
+\caption{Histograma del parametro r}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{histc.png}
+\caption{Histograma del parametro c}
+\end{figure}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{rvsl.png}
+\caption{Likelihood en funcion de r}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.4]{cvsl.png}
+\caption{Likelihood en funcion de c}
+\end{figure}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale = 0.7]{ajuste.png}
+\caption{Ajuste de la ecuacion junto a los datos observados}
+\end{figure}
+
+\end{document}
